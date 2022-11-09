@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: url("../img/bg1.png");
+}
+.container{
+    margin: 0 auto;
+    max-width: 1140px;    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    padding: 14px 35px;
+    font-size: 18px;
+    background: #C9453B;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+h1{
+    
+}
