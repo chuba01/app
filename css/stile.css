@@ -202,3 +202,48 @@ body{
     }
 }
 
+
+.wraper{
+    display: flex;
+    gap: 30px;
+   
+ 
+}
+@media (max-width:1150px){
+    .wraper{
+     flex-wrap: wrap;
+     justify-content:center;
+    }
+}
+.icons{
+    display: flex;
+    gap: 50px;
+    
+}
+.txt4{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.tpt4{
+    font-size: 20px; 
+    margin: 0;
+}
+.tpt5{
+    font-size: 18px; 
+    margin: 8px 0;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.carousel_star{
+    width: 24px;
+    height: 24px;
+}
+.carousel_clic{
+   width:10.86px ;
+   height:15.2px ;
+}
