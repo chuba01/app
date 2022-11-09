@@ -2,6 +2,10 @@
 *{
     box-sizing: border-box;
 }
+h1{
+    padding: 0;
+   margin: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -15,12 +19,12 @@ body{
 .container{
     margin: 0 auto;
     max-width: 1140px; 
-    padding: x 20px;   
+    
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 5px;
     align-items: center;
 }
 .logo{
@@ -61,7 +65,7 @@ body{
 }
 .tpt{
     font-size: 18px;
-    max-width: 460px;
+    max-width: 400px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -81,7 +85,7 @@ body{
         display: inline-flex;
 
     }
-    .txt{
+    .txt1{
     font-style: 45px;
     }
    
@@ -118,13 +122,83 @@ body{
 }
 
 .second{
+    margin-top: 140px;
     text-align: center;
-    padding: 120px;
+  padding: 0 5px;
+}
+.txt1{
+    font-size: 43px;
+   
 }
 .tpt1{
-    max-width: 735px;
+    margin: 0 auto;
+    max-width: 600px;
     font-style: 18px;
     padding-top: 20px;
     padding-bottom: 50px;
+    
+   
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    
+}
+ 
+.card{
+   width: 360px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+.card_shado{
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+}
+
+.card_img{
+    max-width: 100%;
+}
+.card_h3{
+    font-size: 24px;
+}
+.card_tpt{
+    font-size: 18px;
+    max-width: 306px;
+    margin-bottom: 33px; 
+    padding: 0 10px;
+}
+@media (max-width:1150px){
+   .cards{
+    flex-wrap: wrap;
+    justify-content:center;
+   }
+   .second{
+    margin-top: 50px;
+}
+.inner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+   }
+   .txt{
+    font-size: 55px;
+   }
+   
+}
+@media (max-width:750px){
+    .inner{
+        padding-top: 0px;
+        padding-bottom: 50px;
+       }
+       .second{
+        margin-top: 20px;
+    }
+    .txt{
+        font-size: 33px;
+       
+    }
 }
 
